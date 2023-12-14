@@ -1,0 +1,31 @@
+.notFoundImages {
+    width: 270px;
+}
+
+
+@media (max-width:1040px) {
+
+    .notFoundImages {
+        width: 370px;
+    }
+
+  }
+
+
+
+  @media (max-width:768px) {
+
+    .notFoundImages {
+        width: 330px;
+    }
+
+  }
+
+
+  
+  @media (max-width:450px) {
+
+    .notFoundImages {
+        width: 240px;
+    }
+  }

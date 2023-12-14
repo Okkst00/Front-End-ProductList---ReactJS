@@ -1,0 +1,78 @@
+.tableContent2 .tblwrap table .imageProduct {
+    aspect-ratio: 1/1;
+    width: 5rem;
+    height: 100%;
+    object-fit: cover;
+}
+
+.chartDiagram {
+    overflow-x: auto;
+    width: 100%;
+}
+
+.tableContent2 .tblwrap {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.tableContent2 .tblwrap table{
+    width: 100%;
+}
+
+
+.tableContent2 .tblwrap table .number{
+    width: 5%;
+}
+
+.tableContent2 .tblwrap table .images{
+    width: 10%;
+}
+
+.tableContent2 .tblwrap table .name{
+    width: 63%;
+}
+
+.tableContent2 .tblwrap table .prices{
+    width: 14%;
+}
+
+.tableContent2 .tblwrap table .stock{
+    width: 8%;
+}
+
+
+@media (max-width:1040px) {
+
+
+  }
+
+
+
+  @media (max-width:768px) {
+
+    .tableContent2 .tblwrap {
+        width: 100%;
+        overflow-x: auto;
+    }
+    
+    .tableContent2 .tblwrap table{
+        width: 760px;
+    }
+
+  }
+
+
+  
+  @media (max-width:450px) {
+    
+    .tableContent2 .tblwrap {
+        width: 100%;
+        overflow-x: auto;
+    }
+    
+    .tableContent2 .tblwrap table{
+        width: 560px;
+    }
+
+
+  }

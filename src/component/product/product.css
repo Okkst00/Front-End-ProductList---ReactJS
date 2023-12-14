@@ -1,0 +1,215 @@
+.topProduct .mainContent  a {
+    width: 20%;
+}
+
+
+.topProduct .mainContent  a .card {
+
+background: -webkit-linear-gradient(
+        top,
+        #d2d3ff 0%,
+        #ffffff 47%,
+        #e3edff 100%);
+
+        border: 3px solid transparent;
+
+        margin: 0px -4px 0px -4px;
+
+}
+
+.topProduct .mainContent a .card:hover {
+
+    background: -webkit-linear-gradient(
+        top,
+        #c3c7ff 0%,
+        #d6d7ff 22%,
+        #e9e9ff 100%);
+        
+
+border: 3px solid rgb(125, 138, 255); 
+
+}
+
+
+.topProduct .mainContent .imageProduct {
+    aspect-ratio: 1/1;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.topProduct .mainContent a .card .name {
+    font-size: 18px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /* From which line on to truncate */
+    overflow: hidden;
+    color: black;
+}
+
+.topProduct .mainContent a .card .name:hover {
+    font-size: 18px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /* From which line on to truncate */
+    overflow: hidden;
+    color: #030ea5;
+}
+
+.topProduct .mainContent a .card .price {
+    font-size: 18px;
+}
+
+.topProduct .mainContent a .card .stock {
+    font-size: 15px;
+    color: grey;
+}
+
+.topProduct .mainContent a .card .rate {
+    font-size: 15px;
+    color: orange;
+}
+
+.topProduct .mainContent a .card .labels .title {
+    font-size: 13px;
+    color: rgb(33, 168, 44);
+    margin-bottom: 2px;
+    background-color: #d7ffe0;
+    width: fit-content;
+}
+
+.topProduct .mainContent  a .card .badges .imageBadges{
+    width: 23px;
+}
+
+.topProduct .mainContent a .card .badges .title {
+    font-size: 14px;
+}
+
+
+.topProduct .mainContentList  a .card {
+    background: -webkit-linear-gradient(
+        left,
+        #d2d3ff 0%,
+        #ffffff 57%,
+        #e3edff 100%);
+
+        border: 3px solid transparent;
+}
+
+.topProduct .mainContentList  a .card:hover {
+    background: -webkit-linear-gradient(
+        right,
+        #c3c7ff 0%,
+        #d6d7ff 22%,
+        #e9e9ff 100%);
+        
+border: 3px solid rgb(125, 138, 255); 
+}
+
+.mainContentList .imageProduct {
+    aspect-ratio: 1/1;
+    width: 140px;
+    object-fit: cover;
+}
+
+
+.topProduct .mainContentList a .card .name {
+    font-size: 18px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /* From which line on to truncate */
+    overflow: hidden;
+    color: black;
+}
+
+.topProduct .mainContentList a .card .name:hover {
+    font-size: 18px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /* From which line on to truncate */
+    overflow: hidden;
+    color: #030ea5;
+}
+
+
+.topProduct .mainContentList  a .card .badges .imageBadges{
+    width: 23px;
+}
+
+.topProduct .mainContentList a .card .badges .title {
+    font-size: 14px;
+}
+
+.mainContentList .card .desc .price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #030ea5;
+  }
+  
+  .topProduct .mainContentList a .card .rate {
+    font-size: 15px;
+    color: orange;
+}
+
+
+ .mainContentList  .card .desc .stock {
+    font-size: 14px;
+    color: rgb(66, 66, 66);
+    margin-bottom: 2px;
+  }
+  
+  .mainContentList .card .desc .labels span {
+    font-size: 13px;
+    color: rgb(33, 168, 44);
+    margin-bottom: 2px;
+    background-color: #d7ffe0;
+  }
+  
+  .mainContentList .card .desc .sold {
+    font-size: 13px;
+    color: rgb(141, 141, 141);
+    margin-bottom: 2px;
+  }
+
+
+
+
+  @media (max-width:1040px) {
+
+    .topProduct .mainContent  a {
+        width: 33.3%;
+    }
+
+  }
+
+
+
+  @media (max-width:768px) {
+
+    .topProduct .mainContent  a {
+        width: 33.3%;
+    }
+
+  }
+
+
+  
+  @media (max-width:450px) {
+
+    .topProduct .mainContent  a {
+        width: 50%;
+    }
+
+    
+    .topProduct .mainContentList a .card .name {
+        font-size: 18px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1; /* From which line on to truncate */
+        overflow: hidden;
+        color: black;
+    }
+
+
+  }

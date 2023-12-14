@@ -1,0 +1,87 @@
+
+.header {
+    margin-top: 120px;
+}
+
+.carousel {
+    /* height: 300px; */
+    aspect-ratio: 16/4;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.carousel .carousel-inner img{
+    aspect-ratio: 16/4;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+
+@media (max-width:1040px) {
+
+    .carousel {
+        aspect-ratio: 16/4;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    
+    .carousel .carousel-inner img{
+        aspect-ratio: 16/4;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+  }
+
+
+
+  @media (max-width:768px) {
+    .carousel {
+        aspect-ratio: 16/4;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    
+    .carousel .carousel-inner img{
+        aspect-ratio: 16/4;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+  }
+
+
+  
+  @media (max-width:450px) {
+
+    .carousel {
+        aspect-ratio: 16/4;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    
+    .carousel .carousel-inner img{
+        aspect-ratio: 16/4;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    
+
+  }
