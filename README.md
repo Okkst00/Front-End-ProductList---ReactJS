@@ -6,12 +6,6 @@ Get Data From Json File
 ![prodlist](https://github.com/Okkst00/Front-End-ProductList---ReactJS/assets/99626693/1d60fc64-25a9-4745-802a-0f43db780f80)
 
 
-![prodlistTab](https://github.com/Okkst00/Front-End-ProductList---ReactJS/assets/99626693/1b4b944c-181a-46ba-9189-97f6f3e8eab3)
-
-
-![prodlistMob](https://github.com/Okkst00/Front-End-ProductList---ReactJS/assets/99626693/e885c31a-37cc-4eae-9ff7-06fd1bdb0b78)
-
-
 
 
 # React + Vite
