@@ -106,7 +106,7 @@ function TopPlusProduct() {
                             <table className="table table-striped rounded-3 overflow-hidden shadow">
                                 <thead>
                                     <tr>
-                                        <th className="number" scope="col">#</th>
+                                        <th className="number" scope="col">#</th> 
                                         <th className="images" scope="col">Gambar</th>
                                         <th className="name" scope="col">Nama</th>
                                         <th className="prices" scope="col">Harga</th>
